@@ -1,6 +1,7 @@
 import React from "react";
 import ProjectCard from "../components/ProjectCard";
 import sampleImage from "../assets/Chat.png";
+import calculImage from "../assets/Calculator.png";
 import kioskImage from "../assets/kisok.png";
 
 /**
@@ -23,8 +24,8 @@ const ProjectsPage = () => {
     },
     {
       title: "나의 프로젝트3",
-      description: "학교 실습 과제 (추가예정)",
-      link: "https://map.naver.com/p/entry/place/18697937?c=15.00,0,0,0,dh",
+      description: "학교 실습 계산기 만들기",
+      image : calculImage
     },
   ];
 
